@@ -12,7 +12,7 @@ O projeto é uma página estática feita em HTML, CSS e JavaScript. Não precisa
 - Etapas da jornada organizadas da exploração inicial ao pós-Moon Lord, com objetivos gerais, equipamentos recomendados e alternativas.
 - Checklists para objetivos e materiais. Marcar um objetivo também marca os materiais associados; marcar um item pai propaga a seleção aos componentes exibidos abaixo dele.
 - Receitas expansíveis com estação de criação, quantidades, ingredientes e sub-receitas quando cadastradas.
-- Informações de fase, forma de obtenção, inimigo de origem e chance de drop quando aplicável.
+- Informações de fase, forma de obtenção, inimigo de origem e chance de drop quando aplicável. Nos drops de inimigos, abra o detalhe para ver a imagem do mob, bioma/camada, evento e horário em que aparece; itens de Treasure Bags apontam para o chefe que derruba a bolsa.
 - Busca, opção para ocultar objetivos concluídos, expansão e recolhimento dos tópicos e indicadores de progresso por etapa e no total.
 - Salvamento automático do progresso no armazenamento local do navegador, além de exportação e importação de backup em JSON.
 
@@ -30,6 +30,7 @@ O projeto é uma página estática feita em HTML, CSS e JavaScript. Não precisa
 - Filtros de progressão — Pré-Hardmode, Hardmode e Endgame — nas categorias em que essa divisão é útil; filtros podem ser combinados com categoria e subcategoria.
 - Busca, navegação paginada e ordenação aproximada pela progressão, considerando marcos de obtenção, fontes e dependências de receitas. Itens de fase variável são identificados separadamente.
 - Receitas e sub-receitas expansíveis para os itens fabricáveis com receita cadastrada, com marcação de materiais.
+- Quando o item ou um material da receita vem de um inimigo, detalhe expansível com imagem do mob e contexto de surgimento. Drops de Treasure Bags também mostram o chefe de origem e identificam quando o item é obtido ao abrir a bolsa.
 - Prévia ampliada da imagem e links para detalhes e para a página correspondente na wiki.
 
 ### Personalização e uso
@@ -67,6 +68,6 @@ Depois que o GitHub Pages terminar a implantação, o site ficará disponível n
 - [Official Terraria Wiki](https://terraria.wiki.gg/) — páginas de itens, receitas, fases e sprites. Os sprites da wiki são identificados no site sob a licença [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 - [Guia oficial de Class Setups](https://terraria.wiki.gg/wiki/Class_setup) — referência para as rotas do roadmap.
 - [Terraria Database](https://terraria.source.gs/) — dados e páginas de detalhes usados no catálogo.
-- [Terraria Progress Tracker](https://github.com/Doeschi/Terraria-Progress-Tracker) — referência indicada no site para a organização da folha de sprites.
+- [Terraria Progress Tracker](https://github.com/Doeschi/Terraria-Progress-Tracker) — dados estruturados de drops, biomas, eventos e imagens dos mobs, além da organização das sprites. O recorte usado nesta versão é de 8 de outubro de 2026; os detalhes específicos de surgimento continuam vinculados à página do mob na wiki.
 
 Confira os créditos e os links exibidos dentro do próprio site para atribuições e detalhes associados a cada conteúdo.
