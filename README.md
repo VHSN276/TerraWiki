@@ -10,6 +10,7 @@ O projeto é uma página estática feita em HTML, CSS e JavaScript. Não precisa
 
 - Rotas para Melee, Ranged, Magic e Summoner, ou visão de todas as classes.
 - Etapas da jornada organizadas da exploração inicial ao pós-Moon Lord, com objetivos gerais, equipamentos recomendados e alternativas.
+- Guia “Progressão do jogo” com instruções passo a passo do início ao Moon Lord, marcos opcionais, variações entre Corruption/Crimson e a sequência dos minérios de Hardmode.
 - Checklists para objetivos e materiais. Marcar um objetivo também marca os materiais associados; marcar um item pai propaga a seleção aos componentes exibidos abaixo dele.
 - Receitas expansíveis com estação de criação, quantidades, ingredientes e sub-receitas quando cadastradas.
 - Informações de fase, forma de obtenção, inimigo de origem e chance de drop quando aplicável. Nos drops de inimigos, abra o detalhe para ver a imagem do mob, bioma/camada, evento e horário em que aparece; itens de Treasure Bags apontam para o chefe que derruba a bolsa.
