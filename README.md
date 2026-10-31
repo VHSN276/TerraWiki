@@ -1,6 +1,6 @@
 # TerraWiki
 
-Guia interativo de Terraria para acompanhar a progressão de equipamentos do início ao endgame. Reúne um roadmap por classe, árvores de criação e um catálogo de itens sem blocos, com receitas, sub-receitas e links para consultar as fontes.
+Guia interativo de Terraria para acompanhar a progressão de equipamentos do início ao endgame. Reúne um roadmap por classe, progressão do jogo, eventos, árvores de criação, um catálogo completo de mobs e um catálogo de itens sem blocos, com receitas, sub-receitas e links para consultar as fontes.
 
 O projeto é uma página estática feita em HTML, CSS e JavaScript. Não precisa de instalação de dependências nem de etapa de build: abra o arquivo no navegador ou publique o repositório em um serviço de hospedagem estática.
 
@@ -16,6 +16,13 @@ O projeto é uma página estática feita em HTML, CSS e JavaScript. Não precisa
 - Informações de fase, forma de obtenção, inimigo de origem e chance de drop quando aplicável. Nos drops de inimigos, abra o detalhe para ver a imagem do mob, bioma/camada, evento e horário em que aparece; itens de Treasure Bags apontam para o chefe que derruba a bolsa.
 - Busca, opção para ocultar objetivos concluídos, expansão e recolhimento dos tópicos e indicadores de progresso por etapa e no total.
 - Salvamento automático do progresso no armazenamento local do navegador, além de exportação e importação de backup em JSON.
+
+### Eventos
+
+- Página dedicada aos 19 eventos principais de Terraria, com Halloween e Natal em uma seção sazonal.
+- Para cada evento: fase da progressão, critérios naturais, como iniciar ou invocar, inimigos, recompensas exclusivas, melhores destaques e NPCs envolvidos.
+- Busca por evento, inimigo, item ou NPC e filtros combináveis por tipo e fase.
+- Links diretos para as páginas oficiais com as tabelas completas e as taxas detalhadas; as taxas podem variar por modo, inimigo e onda.
 
 ### Árvores de criação
 
@@ -34,9 +41,18 @@ O projeto é uma página estática feita em HTML, CSS e JavaScript. Não precisa
 - Quando o item ou um material da receita vem de um inimigo, detalhe expansível com imagem do mob e contexto de surgimento. Drops de Treasure Bags também mostram o chefe de origem e identificam quando o item é obtido ao abrir a bolsa.
 - Prévia ampliada da imagem e links para detalhes e para a página correspondente na wiki.
 
+### Todos os mobs
+
+- Catálogo dos 506 inimigos, chefes e criaturas do bestiário; NPCs moradores ficam fora desta lista.
+- Cada ficha traz sprite, número no bestiário, bioma/camada, evento e horário de aparição quando aplicáveis, além de link para a Wiki oficial.
+- Drops expansíveis com imagem e nome do item, quantidade e taxa/chance por modo. Itens obtidos ao abrir uma Bolsa do Tesouro são identificados separadamente, e condições, variantes e grupos de drops são indicados quando cadastrados.
+- Filtros combináveis por tipo e habitat, busca por mob, bioma, evento ou item dropado, e navegação paginada. As tabelas são carregadas ao abrir cada ficha para manter a consulta leve.
+- Os dados de bestiário e drops acompanham a build 1.4.5.8 e são incorporados ao HTML, então a tela funciona com `file://`; as imagens e links ainda precisam de conexão com a internet.
+
 ### Personalização e uso
 
 - Alternância entre o tema moderno e o tema Arcade, com tipografia, ícones e elementos visuais pixelados. A escolha do tema é lembrada no navegador.
+- Seletor entre português do Brasil e inglês para nomes de itens, materiais, inimigos, biomas e eventos; a preferência de idioma também fica salva neste navegador.
 - Layout responsivo para desktop e dispositivos móveis.
 - Tela “Como usar” com explicações sobre filtros, progressão, receitas e leitura das informações dos itens.
 
@@ -59,16 +75,16 @@ Depois que o GitHub Pages terminar a implantação, o site ficará disponível n
 ## Dados, compatibilidade e privacidade
 
 - O conteúdo do guia declara como referência Terraria Desktop/Console/Mobile versão **1.4.5.8**. Recomendações e fases são uma organização prática de progressão; algumas rotas oferecem alternativas, e a ordem do catálogo é aproximada.
-- O idioma da interface é português; nomes de itens são mantidos em inglês para facilitar a busca e a conferência das receitas na wiki.
-- O progresso e a preferência de tema ficam no armazenamento local do navegador. Eles não são enviados a um servidor e não sincronizam automaticamente entre dispositivos. Use a exportação JSON para transportar um backup.
+- A interface geral permanece em português. O seletor do cabeçalho alterna entre português do Brasil e inglês os nomes do jogo e os filtros dos catálogos, incluindo itens, materiais, inimigos, biomas e eventos; a busca aceita nomes localizados e originais.
+- O progresso e as preferências de tema e idioma ficam no armazenamento local do navegador. Eles não são enviados a um servidor e não sincronizam automaticamente entre dispositivos. Use a exportação JSON para transportar um backup.
 - O arquivo pode ser aberto localmente, mas imagens, fontes externas, detalhes de itens e páginas da wiki precisam de conexão com a internet. Uma hospedagem HTTPS também evita restrições que alguns navegadores aplicam a arquivos locais.
 - O catálogo e as receitas correspondem aos dados cadastrados no projeto; consulte os links do item para verificar detalhes ou mudanças de versão.
 
 ## Fontes e créditos
 
-- [Official Terraria Wiki](https://terraria.wiki.gg/) — páginas de itens, receitas, fases e sprites. Os sprites da wiki são identificados no site sob a licença [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+- [Official Terraria Wiki](https://terraria.wiki.gg/) — páginas de itens, receitas, fases e sprites, além do [banco oficial de textos pt-BR do jogo](https://terraria.wiki.gg/pt/wiki/M%C3%B3dulo:GameText/db-pt.json), usado como referência para nomes localizados. Os sprites da wiki são identificados no site sob a licença [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 - [Guia oficial de Class Setups](https://terraria.wiki.gg/wiki/Class_setup) — referência para as rotas do roadmap.
 - [Terraria Database](https://terraria.source.gs/) — dados e páginas de detalhes usados no catálogo.
-- [Terraria Progress Tracker](https://github.com/Doeschi/Terraria-Progress-Tracker) — dados estruturados de drops, biomas, eventos e imagens dos mobs, além da organização das sprites. O recorte usado nesta versão é de 8 de outubro de 2026; os detalhes específicos de surgimento continuam vinculados à página do mob na wiki.
+- [Terraria Progress Tracker](https://github.com/Doeschi/Terraria-Progress-Tracker) — dados estruturados do bestiário, habitats, eventos, taxas e quantidades dos drops, e referências das imagens de mobs e itens. O recorte usado nesta versão é de 8 de outubro de 2026; confira as páginas oficiais para condições e atualizações posteriores.
 
 Confira os créditos e os links exibidos dentro do próprio site para atribuições e detalhes associados a cada conteúdo.
