@@ -67,19 +67,13 @@ O projeto é uma página estática feita em HTML, CSS e JavaScript. Não precisa
 
 ## Começar
 
+### Acessar pela web
+
+Abra o [TerraWiki no GitHub Pages](https://vhsn276.github.io/TerraWiki/). O site é publicado a partir da branch `main`; commits enviados para ela atualizam a versão web automaticamente.
+
 ### Abrir no computador
 
-Baixe ou clone este repositório e abra `TerraWiki.html` em um navegador. O `index.html` encaminha para essa página e é usado como entrada quando o site está hospedado na raiz do GitHub Pages. O guia da sala de troféus pode ser aberto pelo link acima ou diretamente em `Boss_Room_Guide.html`.
-
-### Publicar com GitHub Pages
-
-No repositório, abra **Settings → Pages** e configure:
-
-1. Em **Build and deployment**, escolha **Deploy from a branch**.
-2. Selecione a branch `main` e a pasta `/(root)`.
-3. Salve e aguarde a publicação.
-
-Depois que o GitHub Pages terminar a implantação, o site ficará disponível no endereço informado na página de configuração do Pages.
+Baixe ou clone este repositório e abra `TerraWiki.html` em um navegador. O `index.html` encaminha para essa página. O guia da sala de troféus pode ser aberto pelo link acima ou diretamente em `Boss_Room_Guide.html`.
 
 ## Dados, compatibilidade e privacidade
 
