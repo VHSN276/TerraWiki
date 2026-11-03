@@ -9,12 +9,13 @@ O projeto é uma página estática feita em HTML, CSS e JavaScript. Não precisa
 ### Roadmap de progressão
 
 - Rotas para Melee, Ranged, Magic e Summoner, ou visão de todas as classes.
-- Etapas da jornada organizadas da exploração inicial ao pós-Moon Lord, com objetivos gerais, equipamentos recomendados e alternativas.
+- Etapas da jornada organizadas da exploração inicial ao pós-Moon Lord, com objetivos gerais, equipamentos recomendados e alternativas. As recomendações por classe seguem o guia oficial Class Setups e são agrupadas em um tópico expansível por classe, com divisões para armas, armaduras, acessórios, lacaios, poções e demais funções.
+- Destaques visuais mostram as prioridades do guia por etapa: melhores armas, armaduras defensivas, gerais ou ofensivas, acessórios, buffs/poções e montarias. Prioridades combinadas, como General/Offensive, aparecem juntas; itens sem prioridade específica continuam como alternativas normais.
 - Guia “Progressão do jogo” com instruções passo a passo do início ao Moon Lord, marcos opcionais, variações entre Corruption/Crimson e a sequência dos minérios de Hardmode.
 - Checklists para objetivos e materiais. Marcar um objetivo também marca os materiais associados; marcar um item pai propaga a seleção aos componentes exibidos abaixo dele.
 - Receitas expansíveis com estação de criação, quantidades, ingredientes e sub-receitas quando cadastradas.
 - Informações de fase, forma de obtenção, inimigo de origem e chance de drop quando aplicável. Nos drops de inimigos, abra o detalhe para ver a imagem do mob, bioma/camada, evento e horário em que aparece; itens de Treasure Bags apontam para o chefe que derruba a bolsa.
-- Busca, opção para ocultar objetivos concluídos, expansão e recolhimento dos tópicos e indicadores de progresso por etapa e no total.
+- Busca, opção para ocultar objetivos concluídos, expansão e recolhimento dos tópicos, indicadores de progresso por etapa e avisos configuráveis para etapas e tópicos iniciados, mas incompletos.
 - Salvamento automático do progresso no armazenamento local do navegador, além de exportação e importação de backup em JSON.
 
 ### Eventos
@@ -40,6 +41,7 @@ O projeto é uma página estática feita em HTML, CSS e JavaScript. Não precisa
 - Receitas e sub-receitas expansíveis para os itens fabricáveis com receita cadastrada, com marcação de materiais.
 - Quando o item ou um material da receita vem de um inimigo, detalhe expansível com imagem do mob e contexto de surgimento. Drops de Treasure Bags também mostram o chefe de origem e identificam quando o item é obtido ao abrir a bolsa.
 - Prévia ampliada da imagem e links para detalhes e para a página correspondente na wiki.
+- Favoritos com estrela: os itens favoritos sobem para o início da lista e podem ser consultados pelo filtro “Favoritos”.
 
 ### Todos os mobs
 
@@ -48,6 +50,13 @@ O projeto é uma página estática feita em HTML, CSS e JavaScript. Não precisa
 - Drops expansíveis com imagem e nome do item, quantidade e taxa/chance por modo. Itens obtidos ao abrir uma Bolsa do Tesouro são identificados separadamente, e condições, variantes e grupos de drops são indicados quando cadastrados.
 - Filtros combináveis por tipo e habitat, busca por mob, bioma, evento ou item dropado, e navegação paginada. As tabelas são carregadas ao abrir cada ficha para manter a consulta leve.
 - Os dados de bestiário e drops acompanham a build 1.4.5.8 e são incorporados ao HTML, então a tela funciona com `file://`; as imagens e links ainda precisam de conexão com a internet.
+
+### Sala de troféus de chefes
+
+- O arquivo independente [`Boss_Room_Guide.html`](Boss_Room_Guide.html) ajuda a planejar uma sala decorativa com uma combinação de bloco e parede de fundo para cada um dos 28 chefes e encontros listados.
+- Cada ficha informa a fase do jogo, se o encontro pertence a um evento, onde obter os materiais, qual ferramenta usar, a receita, as quantidades e a estação de criação.
+- Busca por chefe, bloco, parede ou estação e filtros por fase e tipo de encontro. As sugestões consideram um mundo Corruption e apontam alternativas quando o material depende de um mundo Crimson.
+- Abra o arquivo separadamente; este guia ainda não é uma tela da navegação principal do TerraWiki.
 
 ### Personalização e uso
 
@@ -60,7 +69,7 @@ O projeto é uma página estática feita em HTML, CSS e JavaScript. Não precisa
 
 ### Abrir no computador
 
-Baixe ou clone este repositório e abra `TerraWiki.html` em um navegador. O `index.html` encaminha para essa página e é usado como entrada quando o site está hospedado na raiz do GitHub Pages.
+Baixe ou clone este repositório e abra `TerraWiki.html` em um navegador. O `index.html` encaminha para essa página e é usado como entrada quando o site está hospedado na raiz do GitHub Pages. O guia da sala de troféus pode ser aberto pelo link acima ou diretamente em `Boss_Room_Guide.html`.
 
 ### Publicar com GitHub Pages
 
