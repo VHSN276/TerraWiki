@@ -65,6 +65,14 @@ O projeto é uma página estática feita em HTML, CSS e JavaScript. Não precisa
 - Layout responsivo para desktop e dispositivos móveis.
 - Tela “Como usar” com explicações sobre filtros, progressão, receitas e leitura das informações dos itens.
 
+## Comunidade e contato
+
+- O rodapé reúne os créditos, um aviso de que TerraWiki é um projeto de fã independente, o histórico de alterações no GitHub e os canais para reportar erros ou sugerir melhorias.
+- Os links de reporte e sugestão abrem o aplicativo de e-mail do visitante com assunto e modelo preenchidos. A mensagem só é enviada se a pessoa revisar e confirmar o envio.
+- O botão de compartilhar usa o menu nativo do dispositivo ou copia o endereço público para colar no Discord. A prévia social inclui título, descrição e imagem própria do TerraWiki.
+- O rodapé oferece uma chave Pix para apoio voluntário ao desenvolvimento original do projeto. O apoio não libera funções nem conteúdo adicional.
+- As preferências e o progresso ficam no dispositivo; o site não envia telemetria. E-mail só é enviado pelo visitante quando ele decide confirmar a mensagem no aplicativo de e-mail.
+
 ## Começar
 
 ### Acessar pela web
@@ -83,9 +91,17 @@ Baixe ou clone este repositório e abra `TerraWiki.html` em um navegador. O `ind
 - O arquivo pode ser aberto localmente, mas imagens, fontes externas, detalhes de itens e páginas da wiki precisam de conexão com a internet. Uma hospedagem HTTPS também evita restrições que alguns navegadores aplicam a arquivos locais.
 - O catálogo e as receitas correspondem aos dados cadastrados no projeto; consulte os links do item para verificar detalhes ou mudanças de versão.
 
+## Sobre e direitos autorais
+
+TerraWiki é um projeto independente de fã e não é afiliado, aprovado nem endossado pela Re-Logic. Terraria, sua marca, personagens, nomes e materiais do jogo pertencem aos respectivos titulares.
+
+© 2026 VHSN276 — código, identidade visual e textos originais criados para este projeto. O repositório não concede uma licença geral para reutilizar essas contribuições originais. Este aviso não abrange conteúdo de terceiros nem altera as licenças aplicáveis a cada material. O repositório não inclui um arquivo `LICENSE`.
+
+A legislação brasileira protege a expressão concreta de uma obra, mas não a ideia abstrata do guia. Para proteção da marca TerraWiki, o registro no INPI é um processo separado; este repositório não representa um registro de marca.
+
 ## Fontes e créditos
 
-- [Official Terraria Wiki](https://terraria.wiki.gg/) — páginas de itens, receitas, fases e sprites, além do [banco oficial de textos pt-BR do jogo](https://terraria.wiki.gg/pt/wiki/M%C3%B3dulo:GameText/db-pt.json), usado como referência para nomes localizados. Os sprites da wiki são identificados no site sob a licença [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+- [Official Terraria Wiki](https://terraria.wiki.gg/) — páginas de itens, receitas e fases, além do [banco de textos pt-BR do jogo](https://terraria.wiki.gg/pt/wiki/M%C3%B3dulo:GameText/db-pt.json), usado como referência para nomes localizados. Os textos que a Wiki pode licenciar seguem [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/); arquivos gráficos e de áudio podem ter termos próprios, indicados na página de cada arquivo.
 - [Guia oficial de Class Setups](https://terraria.wiki.gg/wiki/Class_setup) — referência para as rotas do roadmap.
 - [Terraria Database](https://terraria.source.gs/) — dados e páginas de detalhes usados no catálogo.
 - [Terraria Progress Tracker](https://github.com/Doeschi/Terraria-Progress-Tracker) — dados estruturados do bestiário, habitats, eventos, taxas e quantidades dos drops, e referências das imagens de mobs e itens. O recorte usado nesta versão é de 8 de outubro de 2026; confira as páginas oficiais para condições e atualizações posteriores.
