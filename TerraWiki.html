@@ -503,9 +503,22 @@ body.arcade-theme .hero{border-radius:2px!important;box-shadow:5px 5px 0 #03070c
 <style id="requested-visual-adjustments">
 /* Keep a consistent gap between the page banner and whichever screen is active. */
 .hero{margin-bottom:18px}
-/* Equalize event card rows and hide roadmap controls on the how-to tab. */
-#eventsContent .event-grid{grid-auto-rows:1fr;align-items:stretch}
+/* Let event cards keep their own content height, especially on the single-column mobile grid. */
+#eventsContent .event-grid{grid-auto-rows:auto;align-items:start}
+/* Hide roadmap-only controls on the other guide screens. */
 body:not(.roadmap-view) .stats,body:not(.roadmap-view) .toolbar{display:none!important}
+@media(min-width:681px) and (max-width:980px){
+ body.roadmap-view .stage-nav{grid-template-columns:minmax(0,1fr)}
+}
+@media(max-width:640px){
+ .community-actions{display:grid;grid-template-columns:minmax(0,1fr)}
+ .community-actions .community-action{width:100%;justify-self:stretch}
+ .community-pix{display:flex;flex-direction:column;align-items:stretch;gap:8px;padding:8px 0}
+ .community-pix-key{order:0;grid-column:auto;grid-row:auto;margin:0 10px}
+ .community-support-note{order:1;grid-column:auto;grid-row:auto;margin:0 10px}
+ .community-pix-copy{order:2;grid-column:auto;grid-row:auto;width:calc(100% - 6px);min-height:38px;align-self:center;justify-self:center;padding:8px 9px;font-size:.78rem}
+ .recipe-panel.open{width:calc(100% - 10px);margin:11px auto 0;padding:10px 12px!important;border:1px solid var(--line)!important;border-radius:12px!important;background:var(--panel2)!important}
+}
 </style>
 </head>
 <body>
